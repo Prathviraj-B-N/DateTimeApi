@@ -1,3 +1,6 @@
 import requests
-response = requests.get("https://dateTimeAPI.prathvirajbn.repl.co")
+
+#server address
+url = "https://dateTimeAPI.prathvirajbn.repl.co"
+response = requests.get(url)
 print(response.json())
